@@ -1,0 +1,5 @@
+www
+admin
+panel
+cpanel
+alunos
