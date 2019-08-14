@@ -28,6 +28,7 @@ if (!empty(file($list))) {
   exit;
 }
 // Checks the host with all subdomains and print in terminal only the existents subdomains
+$results = 0;
 $qnt = count($sublist);
 for ($i=0; $i < $qnt; $i++) {
   $sub = explode("\n", $sublist[$i]);
@@ -35,6 +36,8 @@ for ($i=0; $i < $qnt; $i++) {
   $ip = gethostbyname($hostname);
   if ($ip != $hostname) {
     echo $hostname.": ".$ip."\n";
-  }
+		$results ++;
+	}
 }
+echo $results."results.";
 ?>
