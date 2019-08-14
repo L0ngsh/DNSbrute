@@ -39,5 +39,6 @@ for ($i=0; $i < $qnt; $i++) {
 		$results ++;
 	}
 }
-echo $results."results.";
+echo "###########################################\n";
+echo $results." results.\n";
 ?>
