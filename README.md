@@ -1,3 +1,3 @@
-Simple DNSbruteforcing in php
+A simple DNS brute force in php
 
-php dnsbrute.php domain subdomainlist.txt
+php dnsbrute.php domain DNSlist.txt
